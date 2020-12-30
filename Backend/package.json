@@ -1,0 +1,14 @@
+{
+  "name": "pps",
+  "version": "1.0.0",
+  "description": "This is coding websie",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "PPS",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

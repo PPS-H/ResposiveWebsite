@@ -1,0 +1,277 @@
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* navbar */
+.navbar {
+    display: flex;
+    position:sticky;
+    top: 0;
+    opacity: 0.9;
+    background-color: rgb(160, 197, 211);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-list {
+    display: flex;
+    width: 100%;
+}
+
+.nav-list ul {
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+
+.nav-list ul li {
+    list-style: none;
+    padding: 2px 0px;
+}
+
+.nav-list ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 0px 18px;
+    
+}
+
+.nav-list ul li a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.nav-list img {
+    height: 50px;
+    width: 50px;
+    border: 2px solid white;
+    border-radius: 50px;
+    margin: 2px 8px;
+}
+
+.right-nav {
+    width: 50%;
+    text-align: right;
+    padding: 15px 14px;
+}
+
+.right-nav input {
+    border: 2px solid black;
+    border-radius: 5px;
+    outline: none;
+    padding: 2px;
+    width: 35%;
+}
+
+.btn {
+    border: 2px solid black;
+    background: none;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 2px 3px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn:hover{
+    background: white;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0) url('../images/pexels-lukas-kloeppel-466685.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.burger{
+    display: none;
+    height: 30px;
+    width: 33px;
+    border: 2px solid black;
+    right: 4%;
+    border-radius: 4px;
+}
+
+.line{
+    width: 26px;
+    padding: 1px 2px;
+    background-color: black;
+    height: 1px;
+    margin: 5px 1px;
+    border-radius: 6px;
+}
+
+
+
+/* first section part */
+
+.first-section {
+    height: 100vh;
+    font-family: 'Ubuntu', sans-serif;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    max-width: 70%;
+    margin: auto;
+}
+.first-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.first-part p{
+    margin-bottom: 8px;
+}
+.second-part{
+    padding: 0px 10px;
+}
+.second-part img{
+    width: 60%;
+    border: 2px solid white;
+    border-radius: 150px;
+}
+.big-text{
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+.small-text{
+    font-size: 30px;
+    color:black;
+    font-weight: bold; 
+    text-align: center;
+}
+.button{
+    background: none;
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 5px;
+    color: black;
+    outline: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 4px 10px;
+}
+.button:hover{
+    background: white;
+}
+
+/* section-two */
+.second-section{
+    margin: 35px 0px;
+}
+.sections{
+    max-width: 90%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 15px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 22px;
+    text-align: justify;
+}
+.text1{
+font-size: 35px;
+font-weight: bold;
+}
+.text2{
+    margin-right: 61px;
+}
+
+.features{
+    display: flex;
+}
+
+.left{
+    flex-direction: row-reverse;
+}
+.left-text1{
+    margin-left: 61px;
+}
+.left-text2{
+    margin-left: 61px;
+}
+
+
+.image img{
+    height: 220px;
+    width: 220px;
+    margin: auto;
+    border: 2px solid white;
+    border-radius: 15px;
+    margin-top: 40px;
+}
+
+/* section-three */
+.section-three{
+    background:rgb(243, 241, 238);
+    height: 85vh;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact h1{
+    padding: 12px 0px;
+    font-size: 30px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    margin: auto;
+    width: 100%;
+}
+.form-input{
+    width:60%;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 10px;
+    padding: 8px 4px;
+    margin: 20px auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.submit{
+    border: 2px solid black;
+    padding: 2px 3px;
+    background: none;
+    border-radius: 5px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.submit:hover{
+    background-color: white;
+    font-weight: bold;
+}
+.foot{
+    background-color: rgb(88, 84, 84);
+    height: 7vh;
+}
+.foot p{
+    text-align: center;
+    font-size: 17px;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 0px;
+}
+
+
+
